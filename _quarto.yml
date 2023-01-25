@@ -1,0 +1,35 @@
+project:
+  type: book
+
+book:
+  title: "Python for Spatial Data Analysis"
+  author: "Fernando Benitez-Paez"
+  date: "25/01/2023"
+  search: true
+  page-navigation: true
+  repo-url: https://github.com/jjallaire/hopr/
+  #repo-actions: [edit]
+  downloads: [pdf]
+  sharing: [twitter]
+
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - working_tab_data.qmd
+    - working_spat_data.qmd
+    - USL_Clustering.qmd
+    - auxillary_data.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+    light: flatly
+    dark: darkly
+  pdf:
+    documentclass: scrreprt
+
+
+

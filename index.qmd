@@ -1,0 +1,23 @@
+---
+title: "Getting started"
+---
+
+
+![](img/py4sda_logo.png)
+
+Welcome to the handbook for the second part of the course **GG3209 Spatial Analysis with GIS**. In this part of the course we will focuses in the use of Python and a brief introduction to the main concepts, basics of python, and we can use this powerful scripting programming language
+
+
+Introduction to Python, Jupyter Notebooks, and GIT 
+- Working with tabular and spatial data in Python 
+- Clustering models 
+This part will stablish a comprehensive introduction to Python (an easy to learn and powerful 
+development programming language) and its use for manipulation of spatial data and deployment of 
+spatial analysis models. Python has been multiple times catalogued as the one of the most popular 
+programming technologies and it is widely used as a scripting language in the GIScience world. 
+Students will learn how to set up their own development environment with a popular tool called 
+3 
+Jupyter Notebooks, then learn how to manipulate vector and raster data and finish with running 
+clustering methods, as a useful methodology for dissertations. 
+
+To learn more about Quarto books visit <https://quarto.org/docs/books>.

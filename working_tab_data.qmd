@@ -1,0 +1,8 @@
+---
+title: "Working with tabular Data"
+---
+
+
+This lecture 
+
+See @knuth84 for additional discussion of literate programming.
