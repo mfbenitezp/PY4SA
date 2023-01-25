@@ -1,6 +1,9 @@
 project:
   type: book
 
+execute:
+  freeze: auto
+
 book:
   title: "Python for Spatial Data Analysis"
   author: "Fernando Benitez-Paez"
@@ -30,9 +33,3 @@ format:
     dark: darkly
   pdf:
     documentclass: scrreprt
-
-execute:
-  freeze: auto
-
-
-
