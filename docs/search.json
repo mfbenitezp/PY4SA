@@ -1,0 +1,51 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Python for Spatial Data Analysis",
+    "section": "",
+    "text": "Welcome to the handbook for the second part of the course GG3209 Spatial Analysis with GIS. In this part of the course we will focuses in the use of Python and a brief introduction to the main concepts, basics of python, and we can use this powerful scripting programming language\nIntroduction to Python, Jupyter Notebooks, and GIT - Working with tabular and spatial data in Python - Clustering models This part will stablish a comprehensive introduction to Python (an easy to learn and powerful development programming language) and its use for manipulation of spatial data and deployment of spatial analysis models. Python has been multiple times catalogued as the one of the most popular programming technologies and it is widely used as a scripting language in the GIScience world. Students will learn how to set up their own development environment with a popular tool called 3 Jupyter Notebooks, then learn how to manipulate vector and raster data and finish with running clustering methods, as a useful methodology for dissertations.\nTo learn more about Quarto books visit https://quarto.org/docs/books."
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "2  Introduction",
+    "section": "",
+    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+  },
+  {
+    "objectID": "working_tab_data.html",
+    "href": "working_tab_data.html",
+    "title": "3  Working with tabular Data",
+    "section": "",
+    "text": "This lecture\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+  },
+  {
+    "objectID": "working_spat_data.html",
+    "href": "working_spat_data.html",
+    "title": "4  Working with Spatial Data",
+    "section": "",
+    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+  },
+  {
+    "objectID": "USL_Clustering.html",
+    "href": "USL_Clustering.html",
+    "title": "5  Unsupervised statistical learning – Clustering",
+    "section": "",
+    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+  },
+  {
+    "objectID": "auxillary_data.html",
+    "href": "auxillary_data.html",
+    "title": "6  Auxiliary Data",
+    "section": "",
+    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+  }
+]
