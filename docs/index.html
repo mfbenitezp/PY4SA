@@ -6,8 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Fernando Benitez-Paez">
-<meta name="dcterms.date" content="2025-01-01">
+<meta name="author" content="Dr.&nbsp;Fernando Benitez-Paez">
+<meta name="dcterms.date" content="2023-02-23">
 
 <title>Python for Spatial Data Analysis</title>
 <style>
@@ -33,6 +33,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./intro.html" rel="next">
+<link href="./img/favico.ico" rel="icon">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -61,17 +62,24 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
+<script async="" src="https://hypothes.is/embed.js"></script>
 
 
+<meta name="twitter:title" content="Python for Spatial Data Analysis">
+<meta name="twitter:description" content="Module GG3209 - Second Part">
+<meta name="twitter:image" content="https://github.com/mfbenitezp/PY4SA/cover.png">
+<meta name="twitter:image-height" content="1185">
+<meta name="twitter:image-width" content="1196">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
-<body class="nav-sidebar floating fullcontent">
+<body class="nav-sidebar docked">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Python for Spatial Data Analysis</h1>
+      <h1 class="quarto-secondary-nav-title">Getting started</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -81,14 +89,42 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Python for Spatial Data Analysis</a> 
         <div class="sidebar-tools-main tools-wide">
     <a href="https://github.com/mfbenitezp/PY4SA" title="Source Code" class="sidebar-tool px-1"><i class="bi bi-github"></i></a>
-    <a href="./Python-for-Spatial-Data-Analysis.pdf" title="Download PDF" class="sidebar-tool px-1"><i class="bi bi-file-pdf"></i></a>
-    <a href="https://twitter.com/intent/tweet?url=|url|" title="Twitter" class="sidebar-tool px-1"><i class="bi bi-twitter"></i></a>
+    <a href="" title="Download" id="sidebar-tool-dropdown-0" class="sidebar-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-download"></i></a>
+    <ul class="dropdown-menu" aria-labelledby="sidebar-tool-dropdown-0">
+        <li>
+          <a class="dropdown-item sidebar-tools-main-item" href="./Python-for-Spatial-Data-Analysis.pdf">
+            <i class="bi bi-bi-file-pdf pe-1"></i>
+          Download PDF
+          </a>
+        </li>
+        <li>
+          <a class="dropdown-item sidebar-tools-main-item" href="./Python-for-Spatial-Data-Analysis.epub">
+            <i class="bi bi-bi-journal pe-1"></i>
+          Download ePub
+          </a>
+        </li>
+    </ul>
+    <a href="" title="Share" id="sidebar-tool-dropdown-1" class="sidebar-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-share"></i></a>
+    <ul class="dropdown-menu" aria-labelledby="sidebar-tool-dropdown-1">
+        <li>
+          <a class="dropdown-item sidebar-tools-main-item" href="https://twitter.com/intent/tweet?url=|url|">
+            <i class="bi bi-bi-twitter pe-1"></i>
+          Twitter
+          </a>
+        </li>
+        <li>
+          <a class="dropdown-item sidebar-tools-main-item" href="https://www.linkedin.com/sharing/share-offsite/?url=|url|">
+            <i class="bi bi-bi-linkedin pe-1"></i>
+          LinkedIn
+          </a>
+        </li>
+    </ul>
 </div>
     </div>
       </div>
@@ -138,13 +174,24 @@ ul.task-list li input[type="checkbox"] {
     </div>
 </nav>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#content" id="toc-content" class="nav-link active" data-scroll-target="#content"><span class="toc-section-number">1</span>  Content</a></li>
+  <li><a href="#university-staff" id="toc-university-staff" class="nav-link" data-scroll-target="#university-staff"><span class="toc-section-number">2</span>  University Staff</a></li>
+  <li><a href="#our-research" id="toc-our-research" class="nav-link" data-scroll-target="#our-research"><span class="toc-section-number">3</span>  Our Research</a></li>
+  </ul>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/mfbenitezp/PY4SA/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Python for Spatial Data Analysis</h1>
+<h1 class="title d-none d-lg-block">Getting started</h1>
+<p class="subtitle lead">Module GG3209 - Second Part</p>
 </div>
 
 
@@ -154,14 +201,14 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>Fernando Benitez-Paez </p>
+             <p>Dr.&nbsp;Fernando Benitez-Paez </p>
           </div>
   </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">January 1, 2025</p>
+      <p class="date">February 23, 2023</p>
     </div>
   </div>
   
@@ -171,12 +218,35 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p><img src="img/py4sda_logo.png" class="img-fluid"></p>
-<p>Welcome to the handbook for the second part of the course <strong>GG3209 Spatial Analysis with GIS</strong>. In this part of the course we will focuses in the use of Python and a brief introduction to the main concepts, basics of python, and we can use this powerful scripting programming language</p>
+<p><img src="cover.png" title="Python for Spatial Data Analysis" class="quarto-cover-image img-fluid"></p>
+<p>Welcome to the handbook for the second part of the module <strong>GG3209 Spatial Analysis with GIS</strong>. This part of this module is about Python and how we can use this powerful programming language to deal and analyse spatial data, weather is in Vector or Raster format. While in the first part of the GG3209 module you were mostly focus in the use of QGIS (ADD LINK) the powerful and open source GIS tool to work with spatial data, however in this part we will cover an introduction to Python, and its use for manipulation of spatial data and deployment of spatial analysis models.</p>
+<p>Python has been multiple times catalogued as the one of the most popular programming technologies and it is widely used as a scripting language in the GIScience world. Students will learn how to set up their own development environment with a popular tool called Jupyter Notebooks, then learn how to manipulate vector and raster data and finish with running clustering methods, as a useful methodology for dissertations.</p>
+<section id="content" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> Content</h1>
 <p>Introduction to Python, Jupyter Notebooks, and GIT - Working with tabular and spatial data in Python - Clustering models This part will stablish a comprehensive introduction to Python (an easy to learn and powerful development programming language) and its use for manipulation of spatial data and deployment of spatial analysis models. Python has been multiple times catalogued as the one of the most popular programming technologies and it is widely used as a scripting language in the GIScience world. Students will learn how to set up their own development environment with a popular tool called 3 Jupyter Notebooks, then learn how to manipulate vector and raster data and finish with running clustering methods, as a useful methodology for dissertations.</p>
 <p>To learn more about Quarto books visit <a href="https://quarto.org/docs/books" class="uri">https://quarto.org/docs/books</a>.</p>
+</section>
+<section id="university-staff" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> University Staff</h1>
+<p><strong>Module Co-ordinators:</strong> <a href="https://www.st-andrews.ac.uk/geography-sustainable-development/people/ud2/">Dr Urška Demšar</a> or <a href="https://www.st-andrews.ac.uk/geography-sustainable-development/people/mfbp1">Dr Fernando Benitez-Paez</a></p>
+<p><strong>Office hours:</strong> By appointment online and live during the labs</p>
+<p><strong>Lab assistants:</strong> <a href="https://www.st-andrews.ac.uk/geography-sustainable-development/people/cjcvdl1/">Dr Charlotte van der Lijn</a> , Ali Moayedi, Benjamin Ong, Georg Kodl</p>
+</section>
+<section id="our-research" class="level1" data-number="3">
+<h1 data-number="3"><span class="header-section-number">3</span> Our Research</h1>
+<div class="quarto-layout-panel">
+<div class="quarto-layout-row quarto-layout-valign-bottom">
+<div class="quarto-layout-cell" style="flex-basis: 27.3%;justify-content: center;">
+<p><img src="img/begin_logo.png" class="img-fluid"></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 72.7%;justify-content: center;">
+<p>If you want to know more about why spatial data holds the key to unlocking a deeper understanding of our planet and its intricate systems. Let’s BEGIN a spatial and data-driven conversation and be part of our multidisciplinary group in St Andrews. <a href="https://begin.wp.st-andrews.ac.uk/" class="uri">https://begin.wp.st-andrews.ac.uk/</a></p>
+</div>
+</div>
+</div>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://example.com/index.html</loc>
+    <lastmod>2023-06-28T18:03:14.575Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/mfbenitezp/PY4SA/index.html</loc>
+    <lastmod>2023-06-28T18:16:00.234Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/mfbenitezp/PY4SA/intro.html</loc>
+    <lastmod>2023-06-28T18:11:18.081Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/mfbenitezp/PY4SA/working_tab_data.html</loc>
+    <lastmod>2023-06-28T18:11:18.720Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/mfbenitezp/PY4SA/working_spat_data.html</loc>
+    <lastmod>2023-06-28T18:12:03.875Z</lastmod>
+  </url>
+</urlset>

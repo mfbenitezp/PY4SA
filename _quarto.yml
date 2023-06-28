@@ -7,14 +7,28 @@ execute:
 
 book:
   title: "Python for Spatial Data Analysis"
-  author: "Fernando Benitez-Paez"
-  date: "25/01/2023"
+  subtitle: "Module GG3209 - Second Part"
+  version: 2023.2
+  cover-image: cover.png
+  author: "Dr. Fernando Benitez-Paez"
+  date: "2023/02/23"
+
   search: true
   page-navigation: true
   repo-url: https://github.com/mfbenitezp/PY4SA
-  #repo-actions: [edit]
-  downloads: [pdf]
-  sharing: [twitter]
+  repo-actions: [issue]
+  downloads: [pdf, epub]
+  sharing: [twitter, linkedin]
+  favicon: img/favico.ico
+  twitter-card: true
+  site-url: https://github.com/mfbenitezp/PY4SA
+
+  comments:
+    hypothesis: true
+  
+  sidebar:
+    style: docked
+    background: WhiteSmoke
 
   chapters:
     - index.qmd
@@ -26,9 +40,10 @@ book:
     - references.qmd
 
 bibliography: references.bib
-
+highlight-style: pygments
 format:
   html:
     theme: cosmo
+    code-copy: true
   pdf:
     documentclass: scrreprt
