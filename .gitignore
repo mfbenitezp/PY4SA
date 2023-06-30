@@ -1,3 +1,6 @@
 /.quarto/
 _book/
 /docs/
+
+index.tex
+.DS_Store
