@@ -1,7 +1,6 @@
 # Introduction
 
+
 This is a book created from markdown and executable code.
 
-This is a test of pages
-
-See @knuth84 for additional discussion of literate programming.
+This is a test for Intro, Push and actions to refresh auto the website.
