@@ -1,6 +1,5 @@
 project:
   type: book
-  output-dir: docs
 
 execute:
   freeze: auto
@@ -9,7 +8,7 @@ book:
   title: "Python for Spatial Data Analysis"
   subtitle: "Module GG3209 - Second Part"
   version: 2023.2
-  cover-image: cover.png
+  cover-image: img/cover.png
   author: "Dr. Fernando Benitez-Paez"
   date: "2023/02/23"
 
@@ -27,8 +26,8 @@ book:
     hypothesis: true
   
   sidebar:
-    style: docked
-    background: WhiteSmoke
+    style: floating
+    background: lightblue
 
   chapters:
     - index.qmd
