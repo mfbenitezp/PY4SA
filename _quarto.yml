@@ -21,9 +21,6 @@ book:
   favicon: img/favico.ico
   twitter-card: true
   site-url: https://github.com/mfbenitezp/PY4SA
-
-  comments:
-    hypothesis: true
   
   sidebar:
     style: docked
