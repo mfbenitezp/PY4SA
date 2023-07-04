@@ -27,7 +27,7 @@ The module is structured in the following lectures including the correspondent p
 - Working with spatial data in Python (GeoPandas, Rasterio)
 - Clustering analysis 
 
-# Advisement
+# Advisement {.unnumbered .unlisted}
 
 :::{.callout-tip}
 Do not be afraid of failure or getting errors, even during the installation process; it has happened to all of us, regardless of the level of expertise or number of projects created. **In programming, failure is part of the process**; The key is to find the basis of any issue and understand how code, logic, and syntax work in harmony to get the results you are expecting. 
@@ -37,12 +37,12 @@ Do not be afraid of failure or getting errors, even during the installation proc
 All the work described here can be executed in the computer labs, ad we highly recommend you use that environment for all the practical exercises included in this book. However we have also integrated instructions for you to install a specific list of components to get an essential but scalable environment that allows you to write, clone, debug and execute code for this course.
 :::
 
-# Assessment
+# Assessment {.unnumbered .unlisted}
 
 This part of the module is assessed by 100% coursework
 
 
-# University Staff
+# University Staff {.unnumbered .unlisted}
 
 **Module Co-ordinators:**
 [Dr Urška Demšar](https://www.st-andrews.ac.uk/geography-sustainable-development/people/ud2/) or [Dr Fernando Benitez-Paez](https://www.st-andrews.ac.uk/geography-sustainable-development/people/mfbp1)
@@ -53,7 +53,7 @@ This part of the module is assessed by 100% coursework
 **Lab assistants:** 
 [Dr Charlotte van der Lijn](https://www.st-andrews.ac.uk/geography-sustainable-development/people/cjcvdl1/) , Ali Moayedi, Benjamin Ong, Georg Kodl 
 
-# Our Research
+# Our Research {.unnumbered .unlisted}
 
 ::: {layout="[[20,80]]" layout-valign="top"}
 
