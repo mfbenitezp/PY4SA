@@ -30,6 +30,8 @@ Virtual environment in python is a programming environment which works in a way 
 
 ## Python Package Manager -- Mini-Conda :
 
+
+
 ::: {layout="[[20,80]]" layout-valign="top"}
 
 ![](img/conda_logo.png){width="40%"}

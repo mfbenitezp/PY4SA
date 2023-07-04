@@ -42,4 +42,7 @@ format:
     theme: cosmo
     code-copy: true
   pdf:
-    documentclass: scrreprt
+    documentclass: scrartcl
+    toc: true
+    number-sections: true
+    colorlinks: true
