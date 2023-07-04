@@ -55,15 +55,7 @@ This part of the module is assessed by 100% coursework
 
 # Our Research {.unnumbered .unlisted}
 
-::: {layout="[[20,80]]" layout-valign="top"}
-
-![](img/begin_logo.png)
+![](img/begin_logo.png){width="200"}
 
 If you want to know more about why spatial data holds the key to unlocking a deeper understanding of our planet and its intricate systems. Let's BEGIN a spatial and data-driven conversation and be part of our multidisciplinary group in St Andrews. <https://begin.wp.st-andrews.ac.uk/>
-
-:::
-
-
-
-
 

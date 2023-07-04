@@ -15,14 +15,11 @@ Click here to open the slides in a separate tab [Week 1 - Slides](https://mfbeni
 
 ## Installing and setting up your Python environment
 
-::: {layout="[[40,60]]" layout-valign="top"}
-
-![Source: https://xkcd.com/1987/](img/python_envs.png)
+![Source: https://xkcd.com/1987/](img/python_envs.png){width="50%" fig-align="left"}
 
 Perhaps the first exercise that helps you get a sense of what is like of working with Python is setting up your first **Python Environment - PyEnv**. A PyEnv is an independent space where you install all the packages, python version and software components you would need to write and run your scripts. Although is not a compulsory activity, it is recommended to do it before you jump to write and deploy python scripts. It is also relevant that you feel comfortable working with the **Terminal** or **Command-Prompt** in your operating system, whether it is a Windows, Mac, or Linux computer. 
-Technically you could manually install every single library we need. However, we will use a predefined Python environment file that includes all the packages and the Python interpreter we will need for this course. The reason for doing this, is because installing Python libraries and its dependencies can get very tricky and confusing, depending on the operating system, the version, the path where we install, the type of users, even the package manager that suppose to help us can actually be a source of confusion. So, the best way and certainly the most secure way is using a unified single environment file and a package manager to create our Python Environment - PyEnv. 
 
-:::
+Technically you could manually install every single library we need. However, we will use a predefined Python environment file that includes all the packages and the Python interpreter we will need for this course. The reason for doing this, is because installing Python libraries and its dependencies can get very tricky and confusing, depending on the operating system, the version, the path where we install, the type of users, even the package manager that suppose to help us can actually be a source of confusion. So, the best way and certainly the most secure way is using a unified single environment file and a package manager to create our Python Environment - PyEnv. 
 
 ### Virtual Python Environments: 
 
@@ -30,15 +27,9 @@ Virtual environment in python is a programming environment which works in a way 
 
 ## Python Package Manager -- Mini-Conda :
 
-
-
-::: {layout="[[20,80]]" layout-valign="top"}
-
-![](img/conda_logo.png){width="40%"}
+![](img/conda_logo.png){width="30%" fig-align="left"}
 
 Let's start with the package manager, we will use Conda, more specifically Mini-Conda (a lighter version of Conda), which is a package, dependency and environment management for any language including Python. It is an open-source component, and can be installed on Windows, macOS, and Linux. With MiniConda you could quickly installs, runs, and updates packages and their dependencies.  Mini-Conda easily creates, saves, loads, and switches between environments on your local computer. 
-
-:::
 
 :::{.callout-important}
 For **MacOS users**, please be aware that macOS already includes an old version of Python, so it is needed to install an updated version of Python that works with the other packages and dependencies that we need for this course.
