@@ -67,10 +67,13 @@ ul.task-list li input[type="checkbox"] {
 
 <meta name="twitter:title" content="Python for Spatial Data Analysis - 2&nbsp; Introduction">
 <meta name="twitter:description" content="">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://github.com/mfbenitezp/PY4SA/img/python_envs.png">
+<meta name="twitter:image-height" content="510">
+<meta name="twitter:image-width" content="514">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
-<body class="nav-sidebar floating">
+<body class="nav-sidebar docked">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -91,7 +94,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Python for Spatial Data Analysis</a> 
@@ -189,7 +192,19 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#slides" id="toc-slides" class="nav-link active" data-scroll-target="#slides"><span class="header-section-number">2.1</span> Slides</a></li>
+  <li><a href="#installing-and-setting-up-your-python-environment" id="toc-installing-and-setting-up-your-python-environment" class="nav-link" data-scroll-target="#installing-and-setting-up-your-python-environment"><span class="header-section-number">2.2</span> Installing and setting up your Python environment</a>
+  <ul class="collapse">
+  <li><a href="#virtual-python-environments" id="toc-virtual-python-environments" class="nav-link" data-scroll-target="#virtual-python-environments"><span class="header-section-number">2.2.1</span> Virtual Python Environments:</a></li>
+  </ul></li>
+  <li><a href="#python-package-manager-mini-conda" id="toc-python-package-manager-mini-conda" class="nav-link" data-scroll-target="#python-package-manager-mini-conda"><span class="header-section-number">2.3</span> Python Package Manager – Mini-Conda :</a></li>
+  <li><a href="#installing-a-python-package-manager-mamba" id="toc-installing-a-python-package-manager-mamba" class="nav-link" data-scroll-target="#installing-a-python-package-manager-mamba"><span class="header-section-number">2.4</span> Installing a python package manager – Mamba</a></li>
+  </ul>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/mfbenitezp/PY4SA/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -211,10 +226,86 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>This is a book created from markdown and executable code.</p>
-<p>This is a test for Intro, Push and actions to refresh auto the website.</p>
+<p>In this first week we will cover the introduction to Python, why is it important, the software components required to have a simple python environment to work with this programming language, relevant and basic concepts as well the description of the workflow of version control. In this week we have lof of work and concepts to work on, but luckily this will stablish all the concepts and components we need for the rest of the course.</p>
+<section id="slides" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="slides"><span class="header-section-number">2.1</span> Slides</h2>
+<p>Click here to open the slides in a separate tab <a href="https://mfbenitezp.github.io/PY4SA_Slides/week1_slides.html#/title-slide">Week 1 - Slides</a></p>
+<iframe title="Wikipedia page for Avocados" src="https://mfbenitezp.github.io/PY4SA_Slides/week1_slides.html#/title-slide" style="width: 100%; height: 600px; border:3px solid black;">
+</iframe>
+</section>
+<section id="installing-and-setting-up-your-python-environment" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="installing-and-setting-up-your-python-environment"><span class="header-section-number">2.2</span> Installing and setting up your Python environment</h2>
+<div class="quarto-layout-panel">
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-layout-cell" style="flex-basis: 40.0%;justify-content: center;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/python_envs.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Source: https://xkcd.com/1987/</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 60.0%;justify-content: center;">
+<p>Perhaps the first exercise that helps you get a sense of what is like of working with Python is setting up your first <strong>Python Environment - PyEnv</strong>. A PyEnv is an independent space where you install all the packages, python version and software components you would need to write and run your scripts. Although is not a compulsory activity, it is recommended to do it before you jump to write and deploy python scripts. It is also relevant that you feel comfortable working with the <strong>Terminal</strong> or <strong>Command-Prompt</strong> in your operating system, whether it is a Windows, Mac, or Linux computer. Technically you could manually install every single library we need. However, we will use a predefined Python environment file that includes all the packages and the Python interpreter we will need for this course. The reason for doing this, is because installing Python libraries and its dependencies can get very tricky and confusing, depending on the operating system, the version, the path where we install, the type of users, even the package manager that suppose to help us can actually be a source of confusion. So, the best way and certainly the most secure way is using a unified single environment file and a package manager to create our Python Environment - PyEnv.</p>
+</div>
+</div>
+</div>
+<section id="virtual-python-environments" class="level3" data-number="2.2.1">
+<h3 data-number="2.2.1" class="anchored" data-anchor-id="virtual-python-environments"><span class="header-section-number">2.2.1</span> Virtual Python Environments:</h3>
+<p>Virtual environment in python is a programming environment which works in a way that the Python interpreter, libraries, and scripts installed into it are isolated from the ones installed in other virtual environments (or used by the operating system, important in macOS). This ensures that all the installed packages <strong>work nicely together</strong>. You can create multiple environments on your computer for different projects (having e.g., different versions of Python and specific libraries), and you can swap easily between environments by activating them from the command prompt with a single command. There will be instructions to doing that in the following sections.</p>
+</section>
+</section>
+<section id="python-package-manager-mini-conda" class="level2" data-number="2.3">
+<h2 data-number="2.3" class="anchored" data-anchor-id="python-package-manager-mini-conda"><span class="header-section-number">2.3</span> Python Package Manager – Mini-Conda :</h2>
+<div class="quarto-layout-panel">
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-layout-cell" style="flex-basis: 20.0%;justify-content: center;">
+<p><img src="img/conda_logo.png" class="img-fluid"></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 80.0%;justify-content: center;">
+<p>Let’s start with the package manager, we will use Conda, more specifically Mini-Conda (a lighter version of Conda), which is a package, dependency and environment management for any language including Python. It is an open-source component, and can be installed on Windows, macOS, and Linux. With MiniConda you could quickly installs, runs, and updates packages and their dependencies. Mini-Conda easily creates, saves, loads, and switches between environments on your local computer.</p>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>For <strong>MacOS users</strong>, please be aware that macOS already includes an old version of Python, so it is needed to install an updated version of Python that works with the other packages and dependencies that we need for this course.</p>
+</div>
+</div>
+<p>Got to: <a href="https://docs.conda.io/en/latest/miniconda.html">https://docs.conda.io/en/latest/miniconda.html</a> and get the installer based on your operating system.</p>
+<p><img src="img/MIniConda_Installers.png" class="img-fluid"></p>
+<p>Once you have downloaded the installer, double click on the installer file to install it. In general, you could follow the default options, but for this course, make sure you pick the following:</p>
+<ol type="1">
+<li><p>Select “Just Me” during the installation, and MiniConda will only be available for the current user. This will not require any administrator rights for the installation.</p>
+<p><img src="img/MiniConda_screen1.png" class="img-fluid"></p></li>
+<li><p>Make sure you pick all the advanced installation options.</p>
+<p><img src="img/MiniConda_screen2.png" class="img-fluid"></p></li>
+<li><p>After the installation is complete, you can validate that python and MiniConda were installed appropriately by running the following commands in your terminal or command prompt.</p></li>
+</ol>
+<p>Open the <strong>Anaconda Prompt (miniconda3)</strong> or <strong>Terminal</strong> for macOS, from the Start menu (Apps) and run the command <code>conda ––version</code>, it should return something like.</p>
+<p><img src="img/MiniConda_screen3.png" class="img-fluid"></p>
+<p>You might have noticed that I also ran the command <code>python ––version</code> this one is to validate the python version you have in your system (e.g., 3.10.9)</p>
+<p>If you have any problems with the <strong>Miniconda installation</strong>, you can find some installation tips on the <a href="https://docs.conda.io/en/latest/miniconda.html">Miniconda website</a>.</p>
+</section>
+<section id="installing-a-python-package-manager-mamba" class="level2" data-number="2.4">
+<h2 data-number="2.4" class="anchored" data-anchor-id="installing-a-python-package-manager-mamba"><span class="header-section-number">2.4</span> Installing a python package manager – Mamba</h2>
+<p>Ok, now your computer has <strong>MiniConda</strong> installed; the next step is installing a python package manager. We will use the python package manager called Mamba to handle the installation of python packages in <strong>Miniconda</strong>. This is particularly important as mamba will help us ensure everything we install or remove is consistent. This can be very tedious work, so Mamba is a very convenient tool for the consistency of our virtual environments. Having a python package manager is not always a requirement when you set your virtual environment but will make your life easier when you start to create multiple environments.</p>
+<ol type="1">
+<li><p>Open a terminal window or command prompt in Windows (as an admin user) and run the following command:</p>
+<p><code>conda install mamba -n base -c conda-forge</code></p></li>
+<li><p>If you get a message asking you to confirm the installation of new packages type yes and Enter</p></li>
+</ol>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -466,4 +557,4 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/mfbenitezp/PY4SA/issues/new" class="toc-action">Report an issue</a></p></div></div></div></div></footer></body></html>
+</body></html>

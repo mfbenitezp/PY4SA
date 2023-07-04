@@ -74,7 +74,7 @@ ul.task-list li input[type="checkbox"] {
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
-<body class="nav-sidebar floating">
+<body class="nav-sidebar docked">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -95,7 +95,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Python for Spatial Data Analysis</a> 
@@ -198,8 +198,10 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#content" id="toc-content" class="nav-link active" data-scroll-target="#content"><span class="header-section-number">1</span> Content</a></li>
-  <li><a href="#university-staff" id="toc-university-staff" class="nav-link" data-scroll-target="#university-staff"><span class="header-section-number">2</span> University Staff</a></li>
-  <li><a href="#our-research" id="toc-our-research" class="nav-link" data-scroll-target="#our-research"><span class="header-section-number">3</span> Our Research</a></li>
+  <li><a href="#advisement" id="toc-advisement" class="nav-link" data-scroll-target="#advisement"><span class="header-section-number">2</span> Advisement</a></li>
+  <li><a href="#assessment" id="toc-assessment" class="nav-link" data-scroll-target="#assessment"><span class="header-section-number">3</span> Assessment</a></li>
+  <li><a href="#university-staff" id="toc-university-staff" class="nav-link" data-scroll-target="#university-staff"><span class="header-section-number">4</span> University Staff</a></li>
+  <li><a href="#our-research" id="toc-our-research" class="nav-link" data-scroll-target="#our-research"><span class="header-section-number">5</span> Our Research</a></li>
   </ul>
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/mfbenitezp/PY4SA/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
@@ -237,27 +239,82 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 <p><img src="img/cover.png" title="Python for Spatial Data Analysis" class="quarto-cover-image img-fluid"></p>
-<p>Welcome to the handbook for the second part of the module <strong>GG3209 Spatial Analysis with GIS</strong>. This part of this module is about Python and how we can use this powerful programming language to deal and analyse spatial data, weather is in Vector or Raster format. While in the first part of the GG3209 module you were mostly focus in the use of QGIS (ADD LINK) the powerful and open source GIS tool to work with spatial data, however in this part we will cover an introduction to Python, and its use for manipulation of spatial data and deployment of spatial analysis models.</p>
-<p>Python has been multiple times catalogued as the one of the most popular programming technologies and it is widely used as a scripting language in the GIScience world. Students will learn how to set up their own development environment with a popular tool called Jupyter Notebooks, then learn how to manipulate vector and raster data and finish with running clustering methods, as a useful methodology for dissertations.</p>
+<p>Welcome to the second part of the module of <a href="https://www.st-andrews.ac.uk/subjects/modules/catalogue/?code=GG3209&amp;academic_year=2022%2F3"><strong>GG3209 Spatial Analysis with GIS</strong></a>. This part will take advantage of the initial part, which provided you with a solid understanding of spatial data formats (vector&amp;raster) and use them to perform multiple types of analysis like the so-called Multi-Criteria Evaluation (MCE) using the widely popular Open-Source GIS tool, <a href="https://qgis.org/">QGIS</a>.</p>
+<p>Now in this second part, you will be guided to install, handle and use another powerful tool in the geospatial field, Python. It is a free and open-sourced scripting language that was commonly used to automate tasks in the GIS world. Nowadays is one of the most popular programming languages, especially for GIScience. It is widely used in the private, public sectors and academia for cutting-edge research, where scripts, front-end and back-end components are created using this language. Python is also widley popular as a easy-to-code programming language to deploy new methods, share knowledge, list and fetch data, and run spatial analysis through multiple scientific fields.</p>
+<p>In fact, most companies, or institutes where you probably want to apply once you finish your degree, will be happily interested in your development skills using Python and will validate your current ork in platforms like <a href="https://github.com/"><strong>GitHub</strong></a>, where you can share and disseminate your project. At this stage whether you are student of Geography or Sustainable Development, you probably are familiar with <a href="https://www.r-project.org/">R</a> and its powerful capacity for spatial statistics. Now this module aims to introduce you Python which is mainly used for scalable and robust spatial analysis, front-end applications and process vast among of data. Every day, more packages and code-repositories are shared and maintained for easy use and installation, allowing developers or analysts from all backgrounds and expertise use and integrate them into their own code.</p>
+<p>This part of the module and the lab (technical practice) are meant to be an introduction to Python and some of the spatial libraries. Like any other new language, you need to learn the basic rules (syntax) to write your own scripts, and soon with practice, you will become a python developer.</p>
 <section id="content" class="level1" data-number="1">
 <h1 data-number="1"><span class="header-section-number">1</span> Content</h1>
-<p>Introduction to Python, Jupyter Notebooks, and GIT - Working with tabular and spatial data in Python - Clustering models This part will stablish a comprehensive introduction to Python (an easy to learn and powerful development programming language) and its use for manipulation of spatial data and deployment of spatial analysis models. Python has been multiple times catalogued as the one of the most popular programming technologies and it is widely used as a scripting language in the GIScience world. Students will learn how to set up their own development environment with a popular tool called 3 Jupyter Notebooks, then learn how to manipulate vector and raster data and finish with running clustering methods, as a useful methodology for dissertations.</p>
-<p>To learn more about Quarto books visit <a href="https://quarto.org/docs/books" class="uri">https://quarto.org/docs/books</a>.</p>
+<p>The content included in this module stands to be a brief introduction to Python where you get familiar with multiple concepts up to now new for most of you, we will cover the basis of the programming logic, Python, Version Control (essential for reproducibility and open science) and some of the main libraries for geospatial analysis.</p>
+<p>There are many other concepts and interesting exercises we could apply to learn and see the potential of Python in handling spatial data. However we have designed this part in the way you can see the difference between using GIS tools (user-interface based) and creating code to run script routines. As any other new language the best way to master it is through constant practice. <strong>So don’t get stress out</strong> if you find out this module difficult or different, you will slowly get better and efficient creating new scripts.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>If you think this is the line of work you would like to pursue, you can learn more about in the module <a href="https://www.st-andrews.ac.uk/subjects/modules/catalogue/?code=GG4257&amp;academic_year=2023%2F4">GG4257 - Urban Analytics: A Toolkit for Sustainable Urban Development</a> where we have more time to properly described other libraries, more practical exercises, and use Python for more advance analysis.</p>
+</div>
+</div>
+<p>The module is structured in the following lectures including the correspondent practical Lab.</p>
+<ul>
+<li>Introduction to Python, Jupyter Notebooks, and GIT</li>
+<li>Working with tabular data ( NumPy, Pandas)</li>
+<li>Working with spatial data in Python (GeoPandas, Rasterio)</li>
+<li>Clustering analysis</li>
+</ul>
 </section>
-<section id="university-staff" class="level1" data-number="2">
-<h1 data-number="2"><span class="header-section-number">2</span> University Staff</h1>
+<section id="advisement" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> Advisement</h1>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Do not be afraid of failure or getting errors, even during the installation process; it has happened to all of us, regardless of the level of expertise or number of projects created. <strong>In programming, failure is part of the process</strong>; The key is to find the basis of any issue and understand how code, logic, and syntax work in harmony to get the results you are expecting.</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>All the work described here can be executed in the computer labs, ad we highly recommend you use that environment for all the practical exercises included in this book. However we have also integrated instructions for you to install a specific list of components to get an essential but scalable environment that allows you to write, clone, debug and execute code for this course.</p>
+</div>
+</div>
+</section>
+<section id="assessment" class="level1" data-number="3">
+<h1 data-number="3"><span class="header-section-number">3</span> Assessment</h1>
+<p>This part of the module is assessed by 100% coursework</p>
+</section>
+<section id="university-staff" class="level1" data-number="4">
+<h1 data-number="4"><span class="header-section-number">4</span> University Staff</h1>
 <p><strong>Module Co-ordinators:</strong> <a href="https://www.st-andrews.ac.uk/geography-sustainable-development/people/ud2/">Dr Urška Demšar</a> or <a href="https://www.st-andrews.ac.uk/geography-sustainable-development/people/mfbp1">Dr Fernando Benitez-Paez</a></p>
 <p><strong>Office hours:</strong> By appointment online and live during the labs</p>
 <p><strong>Lab assistants:</strong> <a href="https://www.st-andrews.ac.uk/geography-sustainable-development/people/cjcvdl1/">Dr Charlotte van der Lijn</a> , Ali Moayedi, Benjamin Ong, Georg Kodl</p>
 </section>
-<section id="our-research" class="level1" data-number="3">
-<h1 data-number="3"><span class="header-section-number">3</span> Our Research</h1>
+<section id="our-research" class="level1" data-number="5">
+<h1 data-number="5"><span class="header-section-number">5</span> Our Research</h1>
 <div class="quarto-layout-panel">
-<div class="quarto-layout-row quarto-layout-valign-bottom">
-<div class="quarto-layout-cell" style="flex-basis: 27.3%;justify-content: center;">
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-layout-cell" style="flex-basis: 20.0%;justify-content: center;">
 <p><img src="img/begin_logo.png" class="img-fluid"></p>
 </div>
-<div class="quarto-layout-cell" style="flex-basis: 72.7%;justify-content: center;">
+<div class="quarto-layout-cell" style="flex-basis: 80.0%;justify-content: center;">
 <p>If you want to know more about why spatial data holds the key to unlocking a deeper understanding of our planet and its intricate systems. Let’s BEGIN a spatial and data-driven conversation and be part of our multidisciplinary group in St Andrews. <a href="https://begin.wp.st-andrews.ac.uk/" class="uri">https://begin.wp.st-andrews.ac.uk/</a></p>
 </div>
 </div>
